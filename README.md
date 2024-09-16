@@ -1,47 +1,21 @@
-# Welcome to Remix + Cloudflare!
+# Sustainable Catering
 
-- 📖 [Remix docs](https://remix.run/docs)
-- 📖 [Remix Cloudflare docs](https://remix.run/guides/vite#cloudflare)
+Taking action for sustainable catering practices.
 
-## Development
+## The problem?
+**Single-use, non-biodegradable food containers.**
 
-Run the dev server:
+Catering services use single-use plastic containers and disposable cutlery to serve food. While this is convenient — this practice contributes a significant amount to environmental pollution and creates a big waste of plastic.
 
-```sh
-npm run dev
-```
+## The solution?
+**Proper silverware and reusable, washable containers.**
 
-To run Wrangler:
+Using food containers for catered meals that can be collected, washed, and reused for future meals.
 
-```sh
-npm run build
-npm run start
-```
+For people who eat at the canteen, the food could be served on proper silverware that can be washed after use.
 
-## Typegen
+---
 
-Generate types for your Cloudflare bindings in `wrangler.toml`:
+Sustainable Catering is a part of a Chemistry assignment. This website is only a demonstration of what could be done.
 
-```sh
-npm run typegen
-```
-
-You will need to rerun typegen whenever you make changes to `wrangler.toml`.
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then, deploy your app to Cloudflare Pages:
-
-```sh
-npm run deploy
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+This repository is a part of the MIT license. Fonts, icons, and images used belong to their respective owners.
