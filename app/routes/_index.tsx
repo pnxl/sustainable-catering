@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <main className="selection:bg-sky-700 selection:text-white">
       <div className="relative justify-between flex flex-col min-h-screen bg-[url('/img/naja-bertolt-jensen-isBu-nDo9-I-unsplash.jpg')] bg-top bg-cover">
-        <div className="py-8 px-8 md:px-24 lg:px-40 backdrop-brightness-50">
+        <div className="py-8 px-8 md:px-24 lg:px-40">
           <header className="w-full flex flex-col gap-y-8 ">
             <img
               src="/logotype.svg"
@@ -32,7 +32,7 @@ export default function Index() {
         </div>
         <img
           src="/svg/wave.svg"
-          className="w-full selection:bg-transparent bottom-0 backdrop-brightness-50"
+          className="w-full selection:bg-transparent bottom-0"
           alt=""
         />
       </div>
