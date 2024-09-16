@@ -13,7 +13,7 @@ export default function Index() {
             <img
               src="/logotype.svg"
               alt="Logo"
-              className="w-40 selection:bg-transparent"
+              className="w-32 sm:w-40 selection:bg-transparent"
             />
             <hr className="border-2 border-white" />
           </header>
@@ -21,7 +21,7 @@ export default function Index() {
             <p className="font-body text-2xl sm:text-3xl font-bold italic text-white selection:bg-white selection:text-black">
               Take action
             </p>
-            <h1 className="font-display text-6xl sm:text-7xl md:text-8xl font-bold mt-4 md:mt-0 leading-[1] text-white selection:bg-white selection:text-black">
+            <h1 className="font-display text-5xl sm:text-7xl md:text-8xl font-bold mt-4 md:mt-0 leading-[1] text-white selection:bg-white selection:text-black">
               For{" "}
               <span className="underline decoration-sky-600 selection:bg-white selection:text-black">
                 sustainable
@@ -37,11 +37,11 @@ export default function Index() {
         />
       </div>
       <div className="pt-16 bg-white relative">
-        <div className="text-center pb-24 px-8 md:px-24 lg:px-40 flex flex-col gap-y-16 items-center">
+        <div className="text-left sm:text-center pb-24 px-8 md:px-24 lg:px-40 flex flex-col gap-y-8 sm:gap-y-16 sm:items-center">
           <p className="font-body text-2xl sm:text-3xl font-bold italic text-black">
             The Problem?
           </p>
-          <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-bold leading-[1] text-sky-600 selection:bg-black selection:text-sky-400">
+          <h1 className="font-display text-4xl sm:text-6xl md:text-7xl font-bold leading-[1] text-sky-600 selection:bg-black selection:text-sky-400">
             Single-use, non-biodegradable food containers.
           </h1>
           <p className="font-body text-2xl sm:text-3xl text-black text-left sm:w-4/5">
@@ -58,14 +58,14 @@ export default function Index() {
         />
       </div>
       <div className="pt-16 bg-sky-700 relative">
-        <div className="text-center pb-24 px-8 md:px-24 lg:px-40 flex flex-col gap-y-16 items-center">
+        <div className="text-right sm:text-center pb-24 px-8 md:px-24 lg:px-40 flex flex-col gap-y-8 sm:gap-y-16 sm:items-center">
           <p className="font-body text-2xl sm:text-3xl font-bold italic text-white selection:text-sky-700 selection:bg-white">
             The Solution?
           </p>
-          <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-bold leading-[1] text-white selection:bg-black selection:text-white">
+          <h1 className="font-display text-4xl sm:text-6xl md:text-7xl font-bold leading-[1] text-white selection:bg-black selection:text-white">
             Proper silverware and reusable, washable containers.
           </h1>
-          <p className="font-body text-2xl sm:text-3xl text-white text-left sm:w-4/5 selection:text-sky-700 selection:bg-white">
+          <p className="font-body text-2xl sm:text-3xl text-white text-right sm:text-left sm:w-4/5 selection:text-sky-700 selection:bg-white">
             Using food containers for catered meals that can be collected,
             washed, and reused for future meals.
             <br />
@@ -85,12 +85,12 @@ export default function Index() {
           <img
             src="/logotype.svg"
             alt="Sustainable Catering Logo"
-            className="h-12 selection:bg-transparent"
+            className="h-10 sm:h-12 selection:bg-transparent"
           />
           <img
             src="/limantara-foundation.svg"
             alt="Limantara Foundation Logo"
-            className="h-14 selection:bg-transparent"
+            className="h-12 sm:h-14 selection:bg-transparent"
           />
         </div>
         <hr className="border-neutral-500" />
