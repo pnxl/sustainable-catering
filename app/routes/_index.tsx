@@ -7,7 +7,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <main className="selection:bg-sky-700 selection:text-white">
-      <div className="relative justify-between flex flex-col min-h-screen bg-[url('/img/naja-bertolt-jensen-isBu-nDo9-I-unsplash.jpg')] bg-top bg-cover">
+      <div className=" overflow-x-clip relative justify-between flex flex-col min-h-screen bg-[url('/img/naja-bertolt-jensen-isBu-nDo9-I-unsplash.jpg')] bg-top bg-cover">
         <div className="py-8 px-8 md:px-24 lg:px-40">
           <header className="w-full flex flex-col gap-y-8 ">
             <img
@@ -32,11 +32,11 @@ export default function Index() {
         </div>
         <img
           src="/svg/wave.svg"
-          className="w-full selection:bg-transparent bottom-0"
+          className="w-full selection:bg-transparent bottom-0 scale-105 left-0 right-0"
           alt=""
         />
       </div>
-      <div className="pt-16 bg-white relative">
+      <div className="pt-16 bg-white relative overflow-x-clip">
         <div className="text-left sm:text-center pb-24 px-8 md:px-24 lg:px-40 flex flex-col gap-y-8 sm:gap-y-16 sm:items-center">
           <p className="font-body text-2xl sm:text-3xl font-bold italic text-black">
             The Problem?
@@ -53,11 +53,11 @@ export default function Index() {
         </div>
         <img
           src="/svg/wave2.svg"
-          className="w-full selection:bg-transparent"
+          className="w-full selection:bg-transparent bottom-0 scale-105 left-0 right-0"
           alt=""
         />
       </div>
-      <div className="pt-16 bg-sky-700 relative">
+      <div className="pt-16 bg-sky-700 relative overflow-x-clip">
         <div className="text-right sm:text-center pb-24 px-8 md:px-24 lg:px-40 flex flex-col gap-y-8 sm:gap-y-16 sm:items-center">
           <p className="font-body text-2xl sm:text-3xl font-bold italic text-white selection:text-sky-700 selection:bg-white">
             The Solution?
@@ -76,7 +76,7 @@ export default function Index() {
         </div>
         <img
           src="/svg/wave3.svg"
-          className="w-full selection:bg-transparent"
+          className="w-full selection:bg-transparent bottom-0 scale-105 left-0 right-0"
           alt=""
         />
       </div>
