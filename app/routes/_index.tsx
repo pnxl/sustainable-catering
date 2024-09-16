@@ -81,21 +81,21 @@ export default function Index() {
         />
       </div>
       <footer className="bg-neutral-800 px-8 md:px-24 lg:px-40 pb-24 flex flex-col gap-y-16">
-        <div className="flex flex-row justify justify-between">
-          <img
-            src="/limantara-foundation.svg"
-            alt="Limantara Foundation Logo"
-            className="h-14 selection:bg-transparent"
-          />
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:gap-y-0 gap-y-8 sm:mt-0 mt-8">
           <img
             src="/logotype.svg"
             alt="Sustainable Catering Logo"
             className="h-12 selection:bg-transparent"
           />
+          <img
+            src="/limantara-foundation.svg"
+            alt="Limantara Foundation Logo"
+            className="h-14 selection:bg-transparent"
+          />
         </div>
         <hr className="border-neutral-500" />
         <div className="flex flex-col gap-y-4">
-          <p className="font-body text-lg md:text-xl tracking-wide text-center">
+          <p className="font-body text-base sm:text-lg md:text-xl tracking-wide text-center">
             <span className="text-sky-300 selection:bg-white selection:text-sky-600">
               Sustainable Catering
             </span>{" "}
@@ -105,7 +105,7 @@ export default function Index() {
             </span>
             .
           </p>
-          <p className="font-body text-lg md:text-xl tracking-wide italic text-center opacity-75">
+          <p className="font-body text-base sm:text-lg md:text-xl tracking-wide italic text-center opacity-75">
             In support of{" "}
             <a
               href="https://www.breakfreefromplastic.org/"
